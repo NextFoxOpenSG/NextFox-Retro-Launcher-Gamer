@@ -1,24 +1,24 @@
-=== INSTRUCCIONES DE COMPILACIÓN PARA NEXTFOX RLG ===
+=== BUILD INSTRUCTIONS FOR NEXTFOX RLG ===
 
-1. COMPILACIÓN EN WINDOWS (.exe portable)
+1. BUILD ON WINDOWS (.exe portable)
 ----------------------------------------
-Abre una terminal/CMD en la carpeta donde está main.py y ejecuta:
+Open a terminal/CMD in the folder where main.py is and run:
 
    pip install PySide6 pyinstaller
    pyinstaller --noconfirm --onefile --windowed --name "NextFoxRLG" main.py
 
-Resultado: Se creará una carpeta "dist/" con el archivo NextFoxRLG.exe.
-Ese ejecutable es 100% portable y funciona en cualquier PC con Windows sin instalar Python.
+Result: A "dist/" folder will be created with the file NextFoxRLG.exe.
+That executable is 100% portable and works on any Windows PC without installing Python.
 
 
-2. COMPILACIÓN EN LINUX (Binario portable)
+2. BUILD ON LINUX (Portable Binary)
 -----------------------------------------
-En la terminal de Linux (ej. Ubuntu, Zorin OS, Fedora, Bazzite):
+In the Linux terminal (e.g. Ubuntu, Zorin OS, Fedora, Bazzite):
 
    pip install PySide6 pyinstaller
    pyinstaller --noconfirm --onefile --windowed --name "NextFoxRLG" main.py
 
-Resultado: En "dist/" obtendrás el binario portable 'NextFoxRLG'.
-Para ejecutarlo en cualquier sistema Linux:
+Result: In "dist/" you will get the portable binary 'NextFoxRLG'.
+To run it on any Linux system:
    chmod +x dist/NextFoxRLG
    ./dist/NextFoxRLG
