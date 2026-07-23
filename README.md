@@ -1,6 +1,6 @@
 # 🦊 NextFox RLG (Retro-Launcher-Gamer)
 
-![License](https://img.shields.io/badge/License-MIT-red.svg)
+![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)
 ![UI](https://img.shields.io/badge/GUI-PySide6%2FQt-green.svg)
 ![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20Windows-lightgrey.svg)
